@@ -96,6 +96,29 @@ body {
     font-family: 'Roboto', sans-serif;
 
 }
+/*animation logo and title*/ 
+@keyframes moveRight {
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100%{
+        opacity: 0.5;
+        transform: translate(0);
+    }
+}
+@keyframes moveLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
 /*central part*/
 .content {
     background-color: lightgray;
