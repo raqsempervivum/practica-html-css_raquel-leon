@@ -97,4 +97,29 @@ header {
         margin-top: 0.625em;
     }
 }
+/*mobile*/
+@media only screen and (max-width: 576px) {
+    body{
+        font-size:0.625em;
+    }
+    #nav {
+        display: block;
+    }
+
+    #content {
+        display: block;
+        background-color: yellow;
+    }
+    #texto1 {
+        column-count: 1;
+    }
+        
+    #info {
+        padding: 0.6em;
+    }
+    #sidebar {
+        background-color: blue;
+        color: rgb(181, 181, 235);
+    }
+}
 
