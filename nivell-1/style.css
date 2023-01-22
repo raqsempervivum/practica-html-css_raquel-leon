@@ -93,8 +93,7 @@ nav {
 
 .sidebar {
     width: 28.5%;
-    background-color: aliceblue;
-    color:black;
+    background-color: red;
     padding: 1em;
     
 
@@ -103,7 +102,7 @@ nav {
 .sidebar-text {
     padding: .8em;
     margin: .5em;
-    background-color: red;
+    background-color: gold;
     display: flex;
 
 }
@@ -131,16 +130,36 @@ footer {
 
 /*tablet*/
 @media only screen and (max-width: 768px) {
+    header {
+        padding: 1.5em;
+        margin-bottom: 2em;
+
+    }
+    .nav-edge , #nav-center{
+        padding: 1em;
+    }
+    .title {
+        margin-top: .9em;
+
+    }
     .content {
         display: block;
         background-color: yellow;
+        padding: 1.5em;
+        margin-bottom: 2em;
+
     }
     .info {
         width: 100%;
+
     }
     .sidebar {
         width: 100%;
-        margin-top: 0.625em;
+        margin-top: 1.5em;
+        padding: 1.5em;
+    }
+    footer {
+        padding: 1.7em;
     }
 }
 /*mobile*/
@@ -161,7 +180,7 @@ footer {
         margin-bottom: 1.5em;
     }
     .nav-edge , #nav-center {
-        width: 90%;
+        width: 95%;
         padding: 1em;
     }
     .title {
@@ -188,10 +207,12 @@ footer {
         margin: 1em;
         width: 90%;
     }
+
     .sidebar-text {
         padding: 1em;
         margin: 1em;
-        width: 92%;
+        width: 94%;
+        background-color: rgb(255, 163, 78);
     }
     footer {
         margin-top: 1.5em;
